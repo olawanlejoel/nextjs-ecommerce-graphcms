@@ -1,0 +1,20 @@
+.navbar {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #5aa388;
+	color: #fff;
+	padding: 20px 250px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.logo,
+.nav_price {
+	cursor: pointer;
+}
+
+.logo_span {
+	color: green;
+}

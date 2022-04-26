@@ -1,14 +1,18 @@
 import Link from 'next/link';
 
+import styles from '../styles/components/Navbar.module.css';
+
 const Navbar = () => {
 	return (
-		<nav className="navbar container">
+		<nav className={styles.navbar}>
 			<Link href="/">
-				<div className="logo">
-					<p>
-						PLANTS <span>☘</span>
-					</p>
-				</div>
+				<a>
+					<div className={styles.logo}>
+						<p>
+							PLANTS <span className={styles.logo_span}>☘</span>
+						</p>
+					</div>
+				</a>
 			</Link>
 			<div className="nav-price snipcart-checkout">
 				<span>🛒</span>

@@ -1,0 +1,30 @@
+.title {
+	margin: 50px 0;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.products_container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+.product_card {
+	padding: 20px;
+}
+
+.product_img {
+	background-color: #fff;
+	height: 300px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.product_content h3 {
+	margin: 5px 0;
+}

@@ -21,6 +21,12 @@ a {
 	padding: 0 250px;
 }
 
+@media (max-width: 500px) {
+	.container {
+		padding: 0 50px;
+	}
+}
+
 img {
 	object-fit: cover;
 	transition: all 0.5s ease-in-out;

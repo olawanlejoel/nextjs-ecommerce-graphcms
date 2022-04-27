@@ -7,6 +7,13 @@
 	padding: 0 250px;
 }
 
+@media (max-width: 500px) {
+	.single_container {
+		padding: 0 50px;
+		flex-direction: column;
+	}
+}
+
 .left_section {
 	flex-basis: 50%;
 	height: 700px;

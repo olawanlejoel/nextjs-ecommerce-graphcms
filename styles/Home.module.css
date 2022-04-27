@@ -10,6 +10,12 @@
 	gap: 20px;
 }
 
+@media (max-width: 500px) {
+	.products_container {
+		grid-template-columns: 1fr;
+	}
+}
+
 .product_card {
 	padding: 20px;
 }

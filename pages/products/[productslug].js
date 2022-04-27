@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Head from 'next/head';
 
 import styles from '../../styles/SingleProduct.module.css';
@@ -13,13 +12,7 @@ const singleproduct = ({ product }) => {
 			</Head>
 			<div className={styles.single_container}>
 				<div className={styles.left_section}>
-					<Image
-						src={product.image.url}
-						className={styles.left_img}
-						width={350}
-						height={700}
-						alt=""
-					/>
+					<img src={product.image.url} className={styles.left_img} alt="" />
 				</div>
 				<div className={styles.right_section}>
 					<h3 className={styles.title}>{product.name}</h3>

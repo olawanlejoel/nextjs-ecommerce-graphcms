@@ -15,7 +15,10 @@ export default function Document() {
 			<body>
 				<Main />
 				<NextScript />
-				<script src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"></script>
+				<script
+					async
+					src="https://cdn.snipcart.com/themes/v3.2.0/default/snipcart.js"
+				></script>
 				<div
 					hidden
 					id="snipcart"

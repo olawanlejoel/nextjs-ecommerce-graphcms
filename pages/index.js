@@ -11,8 +11,8 @@ export default function Home({ allProducts }) {
 		<>
 			<Head>
 				<title>Plants | Home</title>
-				<Script src="https://third-party-script.js"></Script>
 			</Head>
+			<Script src="https://third-party-script.js"></Script>
 			<div className="container">
 				<h2 className={styles.title}>
 					All Products <span>🌿</span>

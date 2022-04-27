@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Script from 'next/script';
 
 import styles from '../styles/Home.module.css';
 
@@ -12,7 +11,6 @@ export default function Home({ allProducts }) {
 			<Head>
 				<title>Plants | Home</title>
 			</Head>
-			<Script src="https://third-party-script.js"></Script>
 			<div className="container">
 				<h2 className={styles.title}>
 					All Products <span>🌿</span>
